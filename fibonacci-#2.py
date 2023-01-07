@@ -7,4 +7,18 @@
 '''
 
 
-def fibonacci():
+def fibonacci(num):
+
+    a, b = 0, 1
+
+    fibonnaci_numbers = []
+
+    for number in range(num + 1):
+        fibonnaci_numbers.append(a)
+
+        a, b = b, a + b
+
+    return fibonnaci_numbers
+
+
+print(fibonacci(10))
