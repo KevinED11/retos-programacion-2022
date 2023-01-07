@@ -13,7 +13,7 @@ def fibonacci(num):
 
     fibonnaci_numbers = []
 
-    for number in range(num + 1):
+    for number in range(num):
         fibonnaci_numbers.append(a)
 
         a, b = b, a + b
@@ -21,4 +21,5 @@ def fibonacci(num):
     return fibonnaci_numbers
 
 
-print(fibonacci(10))
+if __name__ == '__main__':
+    print(fibonacci(50))
