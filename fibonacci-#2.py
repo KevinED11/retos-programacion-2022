@@ -7,13 +7,13 @@
 '''
 
 
-def fibonacci(num):
+def fibonacci(numbers):
 
     a, b = 0, 1
 
     fibonnaci_numbers = []
 
-    for number in range(num):
+    for number in range(numbers):
         fibonnaci_numbers.append(a)
 
         a, b = b, a + b
@@ -21,5 +21,22 @@ def fibonacci(num):
     return fibonnaci_numbers
 
 
+def fibonacci2(numbers):
+
+    fibonacci_numbers = [0, 1]
+
+    for i in range(2, numbers):
+
+        fibonacci_numbers.append(
+            fibonacci_numbers[i-1] + fibonacci_numbers[i-2])
+
+    return fibonacci_numbers
+
+
 if __name__ == '__main__':
+
     print(fibonacci(50))
+
+    print('\n')
+
+    print(fibonacci2(50))
