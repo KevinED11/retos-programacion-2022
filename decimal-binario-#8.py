@@ -19,9 +19,10 @@ def decimal_a_binario(decimal: int) -> str:
 
         binario += resto
 
-        decimal = decimal // 2
+        decimal = cociente
 
     return binario[::-1]
+
 
 if __name__ == '__main__':
     print(decimal_a_binario(11))
