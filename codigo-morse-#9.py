@@ -5,7 +5,7 @@
  * Dificultad: MEDIA
  *
  * Enunciado: Crea un programa que sea capaz de transformar texto natural a código morse y viceversa.
- * - Debe detectar automáticamente de qué tipo se trata y realizar la conversión.
+
 '''
 
 
