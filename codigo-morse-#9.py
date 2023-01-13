@@ -60,7 +60,6 @@ def morse_to_text(morse):
     text_words = []
 
     words = morse.split('  ')
-    print(words)
 
     for let in morse:
         if let not in char_morse:
