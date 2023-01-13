@@ -16,5 +16,5 @@ def is_anagram(palabra1, palabra2):
     else:
         return sorted(palabra1) == sorted(palabra2)
 
-
-print(is_anagram('amor', 'roma'))
+if __name__ == '__main__':
+    print(is_anagram('amor', 'roma'))
