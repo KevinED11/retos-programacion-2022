@@ -10,7 +10,7 @@
 '''
 
 
-def calcular_area(poligono: str = 'cuadrado', lado1: int = 4, lado2: int = 0):
+def calcular_area(poligono: str = 'cuadrado', lado1: int = 4, lado2: int = 0) -> int or float:
 
     match poligono:
 
