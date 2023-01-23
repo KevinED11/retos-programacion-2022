@@ -4,7 +4,7 @@
 '''
 
 
-def time_conversor(days: int, hours: int, minutes: int, seconds: int) -> str:
+def time_conversor(days: int, hours: int, minutes: int, seconds: int) -> int:
 
     if any(valor <= 0 for valor in [days, hours, minutes, seconds]):
         raise ValueError(
