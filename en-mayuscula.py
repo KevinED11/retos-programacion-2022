@@ -9,10 +9,8 @@ from string import punctuation
 def mayuscula(string: str) -> str:
     string = string.lower().split()
 
-    words = [palabra.strip(punctuation).replace(
-        palabra[0], palabra[0].upper()) for palabra in string]
-
-    return ' '.join(words)
+    return ' '.join([palabra.strip(punctuation).replace(
+        palabra[0], palabra[0].upper()) for palabra in string])
 
 
 if __name__ == '__main__':
