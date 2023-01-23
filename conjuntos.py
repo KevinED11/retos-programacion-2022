@@ -10,18 +10,8 @@
 
 def conjuntos(array1: list, array2: list, booleano: bool) -> list:
 
-    elementos = []
-    if not booleano:
-        for i in array1:
-            if i not in array2:
-                elementos.append(i)
+   return [i for i in array1 if i not in array2] if not booleano else [i for i in array1 if i in array2]
 
-    else:
-        for i in array1:
-            if i in array2:
-                elementos.append(i)
-
-    return elementos
 
 if __name__ == '__main__':
     print(conjuntos([1, 2, 3, 4, 7], [1, 2, 4, 7], False))
