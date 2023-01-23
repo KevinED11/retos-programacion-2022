@@ -12,14 +12,12 @@ from time import sleep
 
 
 def sum_and_sleep(x, y, seconds):
-
     sleep(seconds)
     result = x + y
     print(result)
 
 
 if __name__ == '__main__':
-
     lam_funct = lambda x, y, seconds: sum_and_sleep(x, y, seconds)
 
     thread1 = Thread(target=lam_funct, args=(5, 5, 5))
