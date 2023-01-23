@@ -12,4 +12,5 @@ def numero_factorial(num: int) -> int:
         return num * numero_factorial(num - 1)
 
 
-print(numero_factorial(5))
+if __name__ == '__main__':
+    print(numero_factorial(5))
