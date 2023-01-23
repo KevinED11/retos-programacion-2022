@@ -11,7 +11,7 @@ from threading import Thread
 from time import sleep
 
 
-def sum_and_sleep(x, y, seconds):
+def sum_and_sleep(x: int, y: int, seconds: int):
     sleep(seconds)
     result = x + y
     print(result)
