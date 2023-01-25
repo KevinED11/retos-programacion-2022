@@ -18,6 +18,22 @@ if __name__ == '__main__':
         print(contador)
         contador += 1
 
+    def numeros():
+        return [num for num in range(1, 101)]
+
+
+    print(numeros())
+
+    def numeros2():
+        return list(range(1, 101))
+
+    print(numeros2())
+
+
+
+
+
+
 
 
 
