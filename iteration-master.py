@@ -8,7 +8,17 @@ if __name__ == '__main__':
     for num in range(1, 100 + 1):
         print(num)
 
-
     numeros = [num for num in range(1, 101)]
     print(numeros)
+
+
+    contador = 0
+
+    while contador < 101:
+        print(contador)
+        contador += 1
+
+
+
+
 
