@@ -29,6 +29,10 @@ if __name__ == '__main__':
 
     print(numeros2())
 
+    NUMBERS = list(map(lambda x: x, range(1, 101)))
+    print(NUMBERS)
+
+
 
 
 
