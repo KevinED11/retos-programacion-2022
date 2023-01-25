@@ -9,3 +9,6 @@ if __name__ == '__main__':
         print(num)
 
 
+    numeros = [num for num in range(1, 101)]
+    print(numeros)
+
