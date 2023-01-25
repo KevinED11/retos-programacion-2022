@@ -23,7 +23,7 @@ def fibonacci(numbers):
 
 def fibonacci2(numbers):
 
-    fibonacci_numbers = [0, 1] add
+    fibonacci_numbers = [0, 1]
 
     for i in range(2, numbers):
 
