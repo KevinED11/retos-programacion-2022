@@ -23,7 +23,7 @@ def fibonacci(numbers):
 
 def fibonacci2(numbers):
 
-    fibonacci_numbers = [0, 1]
+    fibonacci_numbers = [0, 1] add
 
     for i in range(2, numbers):
 
@@ -35,7 +35,7 @@ def fibonacci2(numbers):
 
 if __name__ == '__main__':
 
-    print(fibonacci(50))
+    print(fibonacci(2))
 
     print('\n')
 
