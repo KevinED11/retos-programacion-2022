@@ -27,3 +27,7 @@ def fizz_buzz():
 
 if __name__ == '__main__':
     fizz_buzz()
+
+    print("\n".join(["fizzbuzz" if i % 15 == 0 else "fizz" if i % 3 == 0 else "buzz" if i % 5 == 0 else str(i) for i in
+                     range(1, 101)]))
+
