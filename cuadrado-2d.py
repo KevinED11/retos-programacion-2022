@@ -5,12 +5,12 @@
 """
 
 
-def cuadrado(lado1: int) -> str:
-    fila = "* " * lado1
-    area = [fila for _ in range(lado1)]
+def cuadrado(lado: int) -> str:
+    fila = "* " * lado
+    area = [fila for _ in range(lado)]
 
     return "\n".join(area)
 
 
 if __name__ == "__main__":
-    print(cuadrado(lado1=6, lado2=6))
+    print(cuadrado(lado=5))
