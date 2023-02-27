@@ -30,7 +30,7 @@ if __name__ == '__main__':
 
         else:
             counts[palabra] = 1
-
+    
     print(counts)
 
     for word, count in counts.items():

@@ -49,6 +49,6 @@ def match(lista: List[Tuple[str, str]]) -> str:
             'Player2'] else f"el juego ha quedado en '{scores['Resultado'][2]}'" if points['Player1'] == points[
             'Player2'] else f"el jugador 2 ha ganado con {points['Player2']} puntos"
 
-
+    
 if __name__ == '__main__':
     print(match([("R", "S"), ("S", "R"), ("P", "S")]))
