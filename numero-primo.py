@@ -15,26 +15,13 @@ def es_primo(number):
         return False
 
     else:
-        for i in range(2, number):
-            if number % i == 0:
-                return False
-
-        return True
+        return False if [i for i in range(2, number) if number % i == 0] else True
 
 
 def numeros_primos():
-
-    numbers = list(range(1, 101))
-
-    primos = []
-
-    for num in numbers:
-        if es_primo(num):
-            primos.append(num)
-
-    return primos
+    # return list(filter(es_primo, range(1, 101)))
+    return [n for n in range(1, 101) if es_primo(n)]
 
 
 if __name__ == '__main__':
-
     print(numeros_primos())
